@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* CENTER CONTAINER */
@@ -18,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .navbar {
@@ -35,7 +37,37 @@ ul {
     list-style-type: none;
 }
 
-li {
+a {
+    text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+/* HERO STYLING */
+.hero {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 35px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
 }
