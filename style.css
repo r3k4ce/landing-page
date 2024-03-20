@@ -121,3 +121,38 @@ button {
     font-weight: 700;
     color: #1f2937;
 }
+
+/* CTA STYLING */
+.action-call {
+    padding: 100px 150px;
+}
+
+.action-box {
+    border-radius: 10px;
+    padding: 40px 100px;
+    background-color: #3b82f6;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text {
+    color: white;
+}
+
+.action-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.action-button {
+    padding-bottom: 10px;
+}
+
+.action-button button {
+    text-align: center;
+    border: 1px solid white;
+    padding: 3px 30px;
+}
