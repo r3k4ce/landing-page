@@ -4,23 +4,18 @@
     padding: 0;
 }
 
-/* CENTER CONTAINER */
-.container {
-    margin: 0 150px;
-}
-
 /* BODY STYLING */
 body {
     font-family: roboto;
-    background-color: #1f2937;
 }
 
 /* HEADER STYLING */
 .nav {
+    padding: 20px 150px;
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 }
 
 .navbar {
@@ -45,9 +40,10 @@ a {
 
 /* HERO STYLING */
 .hero {
-    margin-top: 100px;
+    background-color: #1f2937;
+    padding: 100px 150px;
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 .hero-text h2 {
@@ -71,3 +67,38 @@ button {
     border-radius: 10px;
     border: none;
 }
+
+/* INFO SECTION STYLING */
+.info-section {
+    background-color: white;
+    padding: 0 250px;
+}
+
+.info-section h2 {
+    padding: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-group {
+    text-align: center;
+}
+
+.info-box {
+    border-radius: 25px;
+    border: solid 4px #2c78f5;
+    padding: 75px;
+}
+
+.info-text {
+    padding-top: 10px;
+}
+
