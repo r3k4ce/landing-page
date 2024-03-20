@@ -156,3 +156,14 @@ button {
     border: 1px solid white;
     padding: 3px 30px;
 }
+
+/* FOOTER STYLING */
+.footer {
+    background-color: #1f2937;
+    padding: 35px;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+}
